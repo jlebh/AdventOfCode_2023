@@ -94,6 +94,35 @@ public class Meta {
         long minutes = timeInMs / 60000;
         return (minutes == 0 ? "" : minutes + "min ") + ((timeInMs / 1000) % 60) + "sec " + (timeInMs % 1000) + "ms";
     }
+
+    public static int getMax(int[] ints){
+        int max = Integer.MIN_VALUE;
+        for (int val : ints) {
+           max = Math.max(max, val) ;
+        }
+        return max;
+    }
+    public static long getMax(long[] longs){
+        long max = Long.MIN_VALUE;
+        for (long val : longs) {
+           max = Math.max(max, val) ;
+        }
+        return max;
+    } public static int getMin(int[] ints){
+        int min = Integer.MAX_VALUE;
+        for (int val : ints) {
+           min = Math.min(min, val) ;
+        }
+        return min;
+    }
+    public static long getMin(long[] longs){
+        long min = Long.MAX_VALUE;
+        for (long val : longs) {
+           min = Math.min(min, val) ;
+        }
+        return min;
+    }
+
 }
 
 // TODO: possible int overflow for very large recursive workload creations!!.
