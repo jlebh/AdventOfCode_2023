@@ -1,9 +1,6 @@
 .history/
 days/
 .vscode/
-src/aoc2023/Day5.java
-src/aoc2023/Day6.java
-src/aoc2023/Day7.java
 src/aoc2023/Day8.java
 src/aoc2023/Day9.java
 src/aoc2023/Day10.java
