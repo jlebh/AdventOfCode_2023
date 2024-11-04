@@ -253,11 +253,3 @@ abstract class MyRunnable extends Thread {
         myCoordinator.reportResult(input, output, System.currentTimeMillis() - startTimeMs);
     }
 }
-
-class Example {
-    public Example() {
-    }
-
-    String answer;
-    String[] prompt;
-}
